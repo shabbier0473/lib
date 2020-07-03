@@ -7,7 +7,7 @@ def call(String command){
            branch:  'master'
           }
           stage('compile'){
-                   echo "hello"
+                   echo "hai"
            }
       }
     }
