@@ -3,7 +3,7 @@ def call(String command){
     {
       node{
           stage('compile'){
-                   echo "hai"
+                   sh "mvn install"
            }
       }
     }
